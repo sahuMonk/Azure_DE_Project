@@ -1,0 +1,15 @@
+{
+	"name": "adf-cars-monk",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "bebda0a6-6d89-4743-97e5-baf7fd9f39eb",
+		"tenantId": "61babec9-fb90-4f51-81a2-257176ef73fc"
+	}
+}
