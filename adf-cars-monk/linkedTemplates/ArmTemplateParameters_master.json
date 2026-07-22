@@ -1,0 +1,42 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-cars-monk"
+		},
+		"AzureDatabricks1_accessToken": {
+			"value": ""
+		},
+		"linkedservicesSqlDB_password": {
+			"value": ""
+		},
+		"ls_datalake_accountKey": {
+			"value": ""
+		},
+		"AzureDatabricks1_properties_typeProperties_existingClusterId": {
+			"value": "0721-121210-9vua7d7m"
+		},
+		"linkedservicesSqlDB_properties_typeProperties_server": {
+			"value": "carsaleservermonk.database.windows.net"
+		},
+		"linkedservicesSqlDB_properties_typeProperties_database": {
+			"value": "carsales"
+		},
+		"linkedservicesSqlDB_properties_typeProperties_userName": {
+			"value": "adminmonk"
+		},
+		"linkedservices_git_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com"
+		},
+		"ls_datalake_properties_typeProperties_url": {
+			"value": "https://carsdatalakemonk.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
